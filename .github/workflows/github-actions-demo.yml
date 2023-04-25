@@ -1,6 +1,6 @@
 on: [push]
 jobs:
-  Explore-GitHub-Actions:
+  first-job:
     runs-on: windows-latest
     steps:
       -run: node --version
